@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(46, 43, 43);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* a:link is for link that hasn't been opened
+   a:visited for a link that has been visited
+*/
+
+a:link {
+    color: lightgreen;
+}
+
+a:visited {
+    color: green;
+}
