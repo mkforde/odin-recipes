@@ -2,6 +2,7 @@ body {
     background-color: rgb(46, 43, 43);
     color: white;
     font-family: 'Courier New', Courier, monospace;
+	text-align: center;
 }
 /* a:link is for link that hasn't been opened
    a:visited for a link that has been visited
@@ -13,4 +14,35 @@ a:link {
 
 a:visited {
     color: green;
+}
+
+h1 {
+	font-size: 48px;
+	padding: 5px;
+	background-color: #FFDC7450;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 8px;
+}
+
+.intro {
+	font-size: 16px;	
+	background-color: rgb(60, 46, 60);
+}
+
+.recipe-list {
+	margin: 0 auto;
+	list-style-type: square;
+	padding: 10px;
+	font-size: 14px;
+}
+
+#items {
+	width: 200px;
+	margin: 0 auto;
+}
+
+h1 a:link, h1 a:visited {
+	color: white;
+	text-decoration: blink;
 }
